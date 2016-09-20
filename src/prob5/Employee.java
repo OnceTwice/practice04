@@ -1,14 +1,13 @@
 package prob5;
 
 public class Employee {
-
 	private String name;
 	private int salary;
 
 	public Employee() {
 	}
 
-	Employee(String name, int salary) {
+	Employee(String name, int salary) {		// 생성자
 		this.name = name;
 		this.salary = salary;
 	}
